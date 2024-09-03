@@ -44,12 +44,13 @@ const Projects = () => {
             {tech}
           </span>
         ))}
-        <div className="mt-6">
-          <a className="mr-2 rounded bg-purple-500 px-4 py-2 text-white hover:bg-purple-600 h-3">
-            Button 1
+        
+        <div className="mt-7">
+          <a key={index} href={project.demo} target="_blank" className="mr-2 rounded bg-blue-700 px-4 py-2 text-white hover:bg-blue-800 h-3">
+            Demo 
           </a>
-          <a className="rounded bg-purple-500 px-4 py-2 text-white hover:bg-purple-600">
-            Button 2
+          <a key={index} href={project.github} target="_blank" className=" ml-2 rounded bg-red-600 px-4 py-2 text-white hover:bg-red-700">
+            Code
           </a>
         </div>
       </motion.div>

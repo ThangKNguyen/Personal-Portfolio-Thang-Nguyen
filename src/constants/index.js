@@ -35,7 +35,8 @@ export const PROJECTS = [
     description:
       "A fully functional fitness web application that lets users to search and view tutorials for various exercises.",
     technologies: ["ReactJS","HTML", "CSS", "RapidAPI", "Material UI"],
-    links: ["https://muscleforger.netlify.app/","https://github.com/ThangKNguyen/React-Fitness-App"]
+    demo: "https://muscleforger.netlify.app/",
+    github: "https://github.com/ThangKNguyen/React-Fitness-App"
   },
   {
     title: "Personal Portfolio",
@@ -43,6 +44,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["ReactJS", "Taiwind CSS", "Framer Motion"],
+    demo: "/",
+    github: "https://github.com/ThangKNguyen/Personal-Portfolio-Thang-Nguyen"
   },
   {
     title: "Video Player",
@@ -50,7 +53,8 @@ export const PROJECTS = [
     description:
       "A video player that allows users to watch selected video files with working subtitles.",
     technologies: ["Java", "JavaFX", "SceneBuilder", "CSS"],
-    links: ["https://www.youtube.com/watch?v=sAmM4iigrk8","https://github.com/ThangKNguyen"]
+    demo: "https://www.youtube.com/watch?v=sAmM4iigrk8",
+    github: "https://github.com/ThangKNguyen/Media-Player-Project"
   },
   {
     title: "Shopping List",
@@ -58,11 +62,8 @@ export const PROJECTS = [
     description:
       "A shopping app that allows multiple users to edit the cart simultaneously in real-time. ",
     technologies: ["HTML", "CSS", "JavaScript", "Firebase"],
+    demo: "https://qu1ckcart.netlify.app/",
+    github: "https://github.com/ThangKNguyen/ShoppingListApp"   
   },
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
-};

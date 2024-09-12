@@ -25,10 +25,11 @@ const Navbar = () => {
         <h1 className='text-4xl font-bold'>TN</h1>
       </div>
       <div className='hidden lg:flex m-8 items-center justify-center gap-4 text-2xl'>
-      <button className="hover:underline p-2" onClick={() => handleScrollToSection('about')}>About</button>
-        <button className="hover:underline p-2" onClick={() => handleScrollToSection('tech')}>Technologies</button>
+        <button className="hover:underline p-2" onClick={() => handleScrollToSection('about')}>About</button>
+
         <button className="hover:underline p-2" onClick={() => handleScrollToSection('experience')}>Experience</button>
         <button className="hover:underline p-2" onClick={() => handleScrollToSection('projects')}>Projects</button>
+        <button className="hover:underline p-2" onClick={() => handleScrollToSection('tech')}>Technologies</button>
         <button className="hover:underline p-2" onClick={() => handleScrollToSection('contact')}>Contacts</button>
       </div>
     </nav>

@@ -102,7 +102,7 @@ const Hero = () => {
                   initial={{x: 100, opacity: 0}} 
                   animate={{x: 0, opacity: 1}}
                   transition={{duration: 0.7, delay: 1}}
-                  className="mt-10 rounded-xl max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto"
+                  className="mt-10 rounded-xl max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg pl-12 xl:max-w-xl mx-auto"
                   src={profilePic} 
                   alt='Profile Picture' 
                 />

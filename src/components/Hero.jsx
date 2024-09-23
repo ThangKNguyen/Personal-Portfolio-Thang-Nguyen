@@ -84,8 +84,8 @@ const Hero = () => {
                     target="_blank" 
                     className="relative group icon-button"
                   >
-                    <FaLinkedin className='text-5xl text-blue-600 bg-white transition-transform duration-200 hover:scale-110' />
-                    <span className="absolute left-1/2 transform -translate-x-1/2 bottom-full mb-2 px-2 py-1 text-xs text-white rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                    <FaLinkedin className='text-5xl text-blue-600 bg-white transition-transform duration-200 hover:scale-110 rounded p-0' />
+                    <span className="absolute left-1/2 transform -translate-x-1/2 bottom-full mb-2 px-2 py-1 text-xs text-white rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 ">
                       LinkedIn
                     </span>
                   </a>

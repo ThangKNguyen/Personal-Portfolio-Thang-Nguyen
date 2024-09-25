@@ -1,4 +1,4 @@
-import React from 'react'
+
 import profilePic from "../assets/thangpiccropped.png"
 import { motion } from "framer-motion"
 import { FaGithub } from "react-icons/fa";
@@ -80,7 +80,7 @@ const Hero = () => {
                   </a>
 
                   <a 
-                    href="https://www.linkedin.com/in/thang-nguyen-cs/" 
+                    href="https://www.linkedin.com/in/thang-nguyen-k/" 
                     target="_blank" 
                     className="relative group icon-button"
                   >

@@ -43,7 +43,7 @@ const Contact = () => {
 
             <div className='flex items-center justify-center my-4'>
                 <FaLinkedin className='mr-2' />
-                <a href="https://www.linkedin.com/in/thang-nguyen-cs/" target="_blank" className='border-b'>
+                <a href="https://www.linkedin.com/in/thang-nguyen-k/" target="_blank" className='border-b'>
                     LinkedIn
                 </a>
             </div>

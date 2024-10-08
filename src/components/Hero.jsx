@@ -57,7 +57,7 @@ const Hero = () => {
                 transition={{duration:0.5, delay:1}}
 
                 className="button-container">
-                  <a href='https://drive.google.com/file/d/1_rNBJsDuEysgEFqFFHUwCRuG3hOv8IQd/view' target='_blank' className="button">
+                  <a href='https://drive.google.com/file/d/1Kj0nCK0LujjDRgKo8jG5zN6a2gCNdji9/view' target='_blank' className="button">
                     Resume
                     <svg fill="currentColor" viewBox="0 0 24 24" className="icon">
                       <path
